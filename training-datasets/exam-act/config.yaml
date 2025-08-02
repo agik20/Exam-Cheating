@@ -1,0 +1,11 @@
+path: C:\Users\HeimTech\Documents\Tugas Akhir\Final Project\datasets\exam-act\dataset-pose-v5\datasets\v5
+train: images/train
+val: images/val
+
+kpt_shape: [17, 3]
+flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+names:
+  0: no-cheating
+  1: provide-object
+  2: see-friends-work

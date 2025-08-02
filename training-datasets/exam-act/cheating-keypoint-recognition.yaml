@@ -1,0 +1,31 @@
+path: C:\Users\HeimTech\Documents\Tugas Akhir\dataset\dataset-pose - Copy\datasets\images
+
+train: images/train
+val: images/val
+
+# Jumlah class aksi
+nc: 4
+
+# Nama-nama class
+names:
+  - no-cheating
+  - provide-object
+  - using-smartphone
+  - see-friends-work
+
+# Bentuk keypoint: [jumlah_keypoints, 3]
+# (17 adalah default untuk COCO; sesuaikan jika kamu pakai keypoint berbeda)
+kpt_shape: [17, 3]
+
+# (Opsional) Nama-nama keypoint jika ingin lebih lengkap
+# kpt_names:
+#   - nose
+#   - left_eye
+#   - right_eye
+#   ... dst (total 17 sesuai COCO jika kamu menggunakannya)
+
+# (Opsional) Definisikan pasangan keypoint untuk visualisasi skeleton
+# skeleton:
+#   - [0, 1]  # contoh: nose to left_eye
+#   - [0, 2]  # nose to right_eye
+#   - ...

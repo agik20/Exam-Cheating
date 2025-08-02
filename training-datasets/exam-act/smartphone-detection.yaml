@@ -1,0 +1,6 @@
+path: C:\Users\HeimTech\Documents\Tugas Akhir\Final Project\datasets\exam-act\smartphone\train-datasets # ganti dengan path lengkap ke folder 'datasets' kamu
+train: images/train
+val: images/val
+
+names:
+  0: smartphone
